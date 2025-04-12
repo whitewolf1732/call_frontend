@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import { io } from "socket.io-client";
 import AgoraRTC from "agora-rtc-sdk-ng";
 
-const socket = io("http://localhost:5001");
+const socket = io("https://call-site.onrender.com");
 const APP_ID = "665f7a8ddf874c68a762eeb828338b90";
 
 const RandomCall = () => {
